@@ -1,0 +1,21 @@
+defaults: &defaults
+  adapter: mysql2
+  encoding: utf8
+  reconnect: false
+  socket: /var/run/mysqld/mysqld.sock
+  pool: 5
+  username: root
+  password: ad@AI
+  timeout: 5000
+
+development:
+  database: onestep_development
+  <<: *defaults
+
+test:
+  database: onestep_test
+  <<: *defaults
+
+production:
+  database: onestep_production
+  <<: *defaults
