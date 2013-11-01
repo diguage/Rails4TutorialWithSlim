@@ -5,17 +5,17 @@ defaults: &defaults
   socket: /var/run/mysqld/mysqld.sock
   pool: 5
   username: root
-  password: ad@AI
+  password: 
   timeout: 5000
 
 development:
-  database: onestep_development
+  database: railstutorial_development
   <<: *defaults
 
 test:
-  database: onestep_test
+  database: railstutorial_test
   <<: *defaults
 
 production:
-  database: onestep_production
+  database: railstutorial_production
   <<: *defaults
