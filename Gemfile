@@ -46,3 +46,4 @@ end
 # gem 'debugger', group: [:development, :test]
 
 gem 'slim'
+gem 'unicorn'
