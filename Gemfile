@@ -46,4 +46,4 @@ gem 'unicorn', '4.6.3'
 # Use debugger
 # gem 'debugger', group: [:development, :test]
 
-gem 'slim', '2.0.2'
+gem 'slim-rails', '2.0.3'
