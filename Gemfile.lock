@@ -118,14 +118,14 @@ PLATFORMS
   ruby
 
 DEPENDENCIES
-  coffee-rails (~> 4.0.0)
-  jbuilder (~> 1.2)
-  jquery-rails
-  mysql2
+  coffee-rails (= 4.0.1)
+  jbuilder (= 1.5.2)
+  jquery-rails (= 3.0.4)
+  mysql2 (= 0.3.13)
   rails (= 4.0.0)
-  sass-rails (~> 4.0.0)
-  sdoc
-  slim
-  turbolinks
-  uglifier (>= 1.3.0)
-  unicorn
+  sass-rails (= 4.0.1)
+  sdoc (= 0.3.20)
+  slim (= 2.0.2)
+  turbolinks (= 1.3.0)
+  uglifier (= 2.3.0)
+  unicorn (= 4.6.3)
