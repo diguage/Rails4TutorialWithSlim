@@ -29,3 +29,4 @@ config/initializers/secret_token.rb
 
 # Custom
 /config/database.yml
+.secret
