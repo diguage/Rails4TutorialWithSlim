@@ -47,3 +47,12 @@ gem 'unicorn', '4.6.3'
 # gem 'debugger', group: [:development, :test]
 
 gem 'slim-rails', '2.0.3'
+
+group :development, :test do
+  gem 'rspec-rails', '2.14.0'
+end
+
+group :test do
+  gem 'selenium-webdriver', '2.37.0'
+  gem 'capybara', '2.1.0'
+end
