@@ -1,12 +1,10 @@
-source 'http://ruby.taobao.org'
-# source 'https://rubygems.org'
+# source 'http://ruby.taobao.org'
+source 'https://rubygems.org'
 
 ruby '2.0.0'
 
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
 gem 'rails', '4.0.0'
-
-gem "mysql2", "0.3.13"
 
 # Use SCSS for stylesheets
 gem 'sass-rails', '4.0.1'
@@ -49,10 +47,16 @@ gem 'unicorn', '4.6.3'
 gem 'slim-rails', '2.0.3'
 
 group :development, :test do
+  gem "mysql2", "0.3.13"
   gem 'rspec-rails', '2.14.0'
 end
 
 group :test do
   gem 'selenium-webdriver', '2.37.0'
   gem 'capybara', '2.1.0'
+end
+
+group :production do
+  gem 'pg', '0.17.0'
+  gem 'rails_12factor', '0.0.2'
 end
