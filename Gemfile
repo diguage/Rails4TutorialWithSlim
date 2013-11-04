@@ -1,5 +1,5 @@
-# source 'http://ruby.taobao.org'
-source 'https://rubygems.org'
+source 'http://ruby.taobao.org'
+#source 'https://rubygems.org'
 
 ruby '2.0.0'
 
@@ -49,6 +49,10 @@ gem 'slim-rails', '2.0.3'
 group :development, :test do
   gem "mysql2", "0.3.13"
   gem 'rspec-rails', '2.14.0'
+  gem 'guard-rspec', '4.0.3'
+  gem 'spork-rails', '4.0.0'
+  gem 'guard-spork', '1.5.1'
+  gem 'childprocess', '0.3.9'
 end
 
 group :test do
