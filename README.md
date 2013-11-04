@@ -4,7 +4,7 @@
 **《Ruby on Rails Tutorial》对应的代码实例。** 注意：前端模板改用Slim试试。
 
 
-## 参考资料
+### 参考资料
 
 Ruby on Rails Tutorial 原书第 2 版(中文版)
 http://railstutorial-china.org/
